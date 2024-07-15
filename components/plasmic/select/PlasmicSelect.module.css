@@ -6,6 +6,9 @@
 .rootcolor_softGreen {
   border-color: #ffffff00;
 }
+.rootborder_outline {
+  border: 1px solid var(--token---IJVRlIhDiM);
+}
 .root:focus-within {
   outline: none;
 }
@@ -19,7 +22,8 @@
   justify-content: center;
   background: var(--token-lXm0Mecam3xH);
   padding: 8px 12px;
-  border: 1px solid var(--token---IJVRlIhDiM);
+  border-width: 1px;
+  border-style: none;
 }
 .triggerisOpen {
   background: #e9e9e6;

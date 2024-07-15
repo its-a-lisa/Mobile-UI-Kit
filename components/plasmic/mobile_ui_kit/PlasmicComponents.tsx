@@ -347,6 +347,18 @@ function PlasmicComponents__RenderFunc(props: {
             data-plasmic-name={"button"}
             data-plasmic-override={overrides.button}
             className={classNames("__wab_instance", sty.button)}
+            endIcon={
+              <FaArrowRightsvgIcon
+                className={classNames(projectcss.all, sty.svg__b1Cwx)}
+                role={"img"}
+              />
+            }
+            startIcon={
+              <FaChecksvgIcon
+                className={classNames(projectcss.all, sty.svg__zKXzT)}
+                role={"img"}
+              />
+            }
           />
 
           <Card

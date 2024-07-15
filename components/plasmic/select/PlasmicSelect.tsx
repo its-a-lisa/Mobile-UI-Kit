@@ -93,6 +93,7 @@ export type PlasmicSelect__VariantMembers = {
     | "softPurple"
     | "softGray"
     | "clear";
+  border: "outline";
 };
 export type PlasmicSelect__VariantsArgs = {
   showPlaceholder?: SingleBooleanChoiceArg<"showPlaceholder">;
@@ -110,13 +111,15 @@ export type PlasmicSelect__VariantsArgs = {
     | "softGray"
     | "clear"
   >;
+  border?: SingleChoiceArg<"outline">;
 };
 type VariantPropType = keyof PlasmicSelect__VariantsArgs;
 export const PlasmicSelect__VariantProps = new Array<VariantPropType>(
   "showPlaceholder",
   "isOpen",
   "isDisabled",
-  "color"
+  "color",
+  "border"
 );
 
 export type PlasmicSelect__ArgsType = {
@@ -168,6 +171,7 @@ export interface DefaultSelectProps extends pp.BaseSelectProps {
     | "softGray"
     | "clear"
   >;
+  border?: SingleChoiceArg<"outline">;
 }
 
 const PlasmicSelectContext = React.createContext<
@@ -237,6 +241,12 @@ function PlasmicSelect__RenderFunc(props: {
 
         valueProp: "value",
         onChangeProp: "onChange"
+      },
+      {
+        path: "border",
+        type: "private",
+        variableType: "variant",
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.border
       }
     ],
     [$props, $ctx, $refs]
@@ -283,6 +293,7 @@ function PlasmicSelect__RenderFunc(props: {
               "dark"
             ),
             [sty.root___focusVisibleWithin]: triggers.focusVisibleWithin_root,
+            [sty.rootborder_outline]: hasVariant($state, "border", "outline"),
             [sty.rootcolor_clear]: hasVariant($state, "color", "clear"),
             [sty.rootcolor_softBlue]: hasVariant($state, "color", "softBlue"),
             [sty.rootcolor_softCyan]: hasVariant($state, "color", "softCyan"),
