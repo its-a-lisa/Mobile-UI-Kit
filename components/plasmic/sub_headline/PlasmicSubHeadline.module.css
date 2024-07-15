@@ -1,0 +1,107 @@
+.contentBase {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-self: flex-start;
+  min-width: 0;
+  min-height: 0;
+}
+.contentStack {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 0px;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+.slotTargetContentSlot {
+  color: var(--token-dTcBpJHIMj6d);
+  line-height: var(--token-rtTziXEVl28M);
+  font-size: var(--token-53NvPz6vkIr5);
+  font-family: var(--token-ERDuB9vgQLsD);
+}
+.slotTargetContentSlotcolor_secondary {
+  color: var(--token-8yizAcn1pTWS);
+}
+.slotTargetContentSlotcolor_standard {
+  color: var(--token-18ML8UJB4uG-);
+}
+.slotTargetContentSlotcolor_main {
+  color: var(--token-v-2NtAmCSv7g);
+}
+.slotTargetContentSlotcolor_ancillary {
+  color: var(--token-drGPo0nCk4jH);
+}
+.slotTargetContentSlotcolor_success {
+  color: var(--token-g5QsaB9i9JMt);
+}
+.slotTargetContentSlotcolor_information {
+  color: var(--token-qXdUiLpgaZ40);
+}
+.slotTargetContentSlotcolor_error {
+  color: var(--token-JaUcd8EsmcW-);
+}
+.slotTargetContentSlotcolor_disabled {
+  color: var(--token-f2rQZCeI72r0);
+}
+.slotTargetContentSlotcolor_helper {
+  color: var(--token-Z5ct7z4nTxQa);
+}
+.slotTargetContentSlotcolor_onColor {
+  color: var(--token-05jwyZEIarFh);
+}
+.slotTargetContentSlotfamily_secondary {
+  font-family: var(--token-Npui-fmz_i5y);
+}
+.slotTargetContentSlotsize_sm {
+  line-height: var(--token-Ok_cYihMYY97);
+  font-size: var(--token-TKLrwITVzrsg);
+}
+.slotTargetContentSlotsize_lg {
+  font-size: var(--token-buUbSUawU3C7);
+  line-height: var(--token-m4oJb1Fzl5Gr);
+}
+.slotTargetContentSlotweight_black {
+  font-weight: 900;
+}
+.slotTargetContentSlotweight_extraBold {
+  font-weight: 800;
+}
+.slotTargetContentSlotweight_bold {
+  font-weight: 700;
+}
+.slotTargetContentSlotweight_semiBold {
+  font-weight: 600;
+}
+.slotTargetContentSlotweight_medium {
+  font-weight: 500;
+}
+.slotTargetContentSlotweight_light {
+  font-weight: 300;
+}
+.slotTargetContentSlotjustification_left {
+  text-align: left;
+}
+.slotTargetContentSlotjustification_center {
+  text-align: center;
+}
+.slotTargetContentSlotjustification_right {
+  text-align: right;
+}
+.slotTargetContentSlotjustification_justification {
+  text-align: justify;
+}
+.text__nzeTq {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}

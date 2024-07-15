@@ -1,0 +1,144 @@
+.avatarBase {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: var(--token-34VqD5weh6FT);
+  height: var(--token-EN8jycILR0rv);
+}
+.avatarBasesize_xs {
+  width: var(--token--rczFiQ_4-G1);
+  height: var(--token-cJ95GfJmG8mg);
+}
+.avatarBasesize_sm {
+  width: var(--token-D1WEMJy_pWtE);
+  height: var(--token-rRaHyF47oUGE);
+}
+.avatarBasesize_md {
+  width: 32px;
+  height: 32px;
+}
+.avatarBasesize_lg {
+  width: var(--token-PKYaBjT8o0sw);
+  height: var(--token-Jy1hyBQYavQt);
+}
+.avatarBasesize_xl {
+  width: var(--token-rKgkjmsiUrEe);
+  height: var(--token-NCkbUAOtxHux);
+}
+.avatarStack {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  background: var(--token-fP-utsOhju3A);
+  min-width: 0;
+  min-height: 0;
+  border-radius: var(--token-BNU064Y-OoCh);
+  padding: var(--token-9s6mW4XYmApu);
+}
+.avatarStacksize_xs {
+  padding: 2px;
+}
+.avatarStacksize_sm {
+  padding: var(--token-XU8tQ0VyPwji);
+}
+.avatarStacksize_lg {
+  padding: 8px;
+}
+.avatarStacksize_xl {
+  padding: 10px;
+}
+.avatarStackstatus_error {
+  background: var(--token-T6W3QjiHZPmT);
+}
+.avatarStackstatus_warning {
+  background: var(--token-waSSQlUu6lGF);
+}
+.avatarStackstatus_success {
+  background: var(--token-kK57Xp8Z_2zD);
+}
+.avatarStackstatus_information {
+  background: var(--token-jK_bA5atRETt);
+}
+.avatarStackshape_square {
+  border-radius: var(--token-Rrev-4uUCZj-);
+}
+.avatarStackcolor_red {
+  background: var(--token-cXgNl30gVBz0);
+}
+.avatarStackcolor_yellow {
+  background: var(--token-fyjGw_o9gnLX);
+}
+.avatarStackcolor_green {
+  background: var(--token-NsXdscuzYudq);
+}
+.avatarStackcolor_blue {
+  background: var(--token-hCA8v6icKVQR);
+}
+.avatarStackcolor_lime {
+  background: var(--token-kbxjK-XeqIcO);
+}
+.avatarStackcolor_teal {
+  background: var(--token-5PSeEOaXzzlJ);
+}
+.avatarStackcolor_turquiose {
+  background: var(--token-T5dc1F60WtrY);
+}
+.avatarStackcolor_aqua {
+  background: var(--token-5TCfYiiUtvVs);
+}
+.avatarStackcolor_indigo {
+  background: var(--token-yUzcrxyz_CNK);
+}
+.avatarStackcolor_pink {
+  background: var(--token-txkn13BVfxm0);
+}
+.avatarStackcolor_purple {
+  background: var(--token-h6mcP_PqsQMM);
+}
+.avatarStackemphasis_minimal {
+  background: var(--token-2ps106l912RM);
+}
+.slotTargetAvatarIconSlot {
+  color: var(--token-juSsID-Z5vrP);
+}
+.slotTargetAvatarIconSlotcolor_yellow {
+  color: var(--token-OPCLJq9QCX1x);
+}
+.slotTargetAvatarIconSlotemphasis_minimal {
+  color: var(--token-juSsID-Z5vrP);
+}
+.svg__bze7A {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.img___7IwPe {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.img___7IwPe > picture > img {
+  object-fit: cover;
+}
+.slotTargetAvatarInitialsSlot {
+  color: var(--token-lWEO2ZudSDrD);
+}
+.text__hBQcc {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  min-width: 0;
+}

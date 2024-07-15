@@ -1,0 +1,113 @@
+.contentBase {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: stretch;
+  height: 100%;
+  width: 100%;
+  justify-self: flex-start;
+  min-width: 0;
+  min-height: 0;
+  padding: var(--token-2SK3A_cYX7kF) var(--token-h-UuudtVIcEI);
+}
+.contentBasesize_sm {
+  padding: var(--token-EL1T-owc2bPs);
+}
+.contentBasesize_lg {
+  padding: var(--token-YcF8eUKST6rk);
+}
+.contentBasenoPadding {
+  align-items: stretch;
+  padding: var(--token-2SK3A_cYX7kF);
+}
+.contentStack {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  min-width: 0px;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+.contentStacknoPadding {
+  width: 100%;
+  align-items: stretch;
+  min-width: 0;
+}
+.slotTargetContentSlot {
+  color: var(--token-QTAn6GOL7PcL);
+  line-height: var(--token-u39CSdpriE5d);
+  font-size: var(--token-flQx_rIVWSEm);
+  font-family: var(--token-V-2Li_W4R5wd);
+}
+.slotTargetContentSlotcolors_secondary {
+  color: var(--token-6STBqWSNZKkA);
+}
+.slotTargetContentSlotcolors_standard {
+  color: var(--token-18ML8UJB4uG-);
+}
+.slotTargetContentSlotcolors_main {
+  color: var(--token-snCgguCuvZ1f);
+}
+.slotTargetContentSlotcolors_ancillary {
+  color: var(--token-COfXeYbyb69N);
+}
+.slotTargetContentSlotcolors_success {
+  color: var(--token-BuO_x7vWR9CK);
+}
+.slotTargetContentSlotcolors_information {
+  color: var(--token-cbCDeTjjxY2F);
+}
+.slotTargetContentSlotcolors_error {
+  color: var(--token-bKGwpuxEl3gP);
+}
+.slotTargetContentSlotcolors_disabled {
+  color: var(--token-EXC4VLBHdr_T);
+}
+.slotTargetContentSlotcolors_helper {
+  color: var(--token-YxKQc3EhyT50);
+}
+.slotTargetContentSlotcolors_onColor {
+  color: var(--token-jBxZ1EjsrS85);
+}
+.slotTargetContentSlotfamily_secondary {
+  font-family: var(--token-KVVMRm5xgGdi);
+}
+.slotTargetContentSlotlineHeight_compact {
+  line-height: var(--token-Cea0ZT4Ix3LR);
+}
+.slotTargetContentSlotsize_sm {
+  font-size: var(--token-2z3v0-cK-F5z);
+}
+.slotTargetContentSlotsize_lg {
+  font-size: var(--token-OifBm5jZOBI3);
+}
+.slotTargetContentSlotweight_light {
+  font-weight: 300;
+}
+.slotTargetContentSlotweight_medium {
+  font-weight: 500;
+}
+.slotTargetContentSlotalign_left {
+  text-align: left;
+}
+.slotTargetContentSlotalign_center {
+  text-align: center;
+}
+.slotTargetContentSlotalign_right {
+  text-align: right;
+}
+.slotTargetContentSlotalign_justified {
+  text-align: justify;
+}
+.text__dGa2B {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  line-height: var(--token-Cea0ZT4Ix3LR);
+  min-width: 0;
+}

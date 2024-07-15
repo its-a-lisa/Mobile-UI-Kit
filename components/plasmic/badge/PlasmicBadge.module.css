@@ -1,0 +1,113 @@
+.badgeBase {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.badgeStack {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  background: var(--token-6hd5YnAlhxd4);
+  min-width: 0;
+  min-height: 0;
+  border-radius: var(--token-hGRU1HiAQGiw);
+  padding: var(--token-RNBcX6cfZXvo) var(--token-XOJH_gxe_AzF);
+}
+.badgeStacksize_xs {
+  padding: 0px var(--token-oB7APAbpquTs);
+}
+.badgeStacksize_sm {
+  padding: 0px var(--token-zgY_kVrG-pNz);
+}
+.badgeStacksize_lg {
+  padding: var(--token-emnmROZ7RhWu) var(--token-gQwW9wAxVP7v);
+}
+.badgeStackstatus_error {
+  background: var(--token-yzf8B6nK4Sw3);
+}
+.badgeStackstatus_warning {
+  background: var(--token-KaYgGlpPQ1EB);
+}
+.badgeStackstatus_success {
+  background: var(--token-oLmQwOkgcmG_);
+}
+.badgeStackstatus_information {
+  background: var(--token-Xw_AZRaTJuAl);
+}
+.badgeStackshape_circle {
+  border-radius: var(--token-ooUkD9JFdXYs);
+}
+.badgeStackshape_square {
+  border-radius: var(--token-hGRU1HiAQGiw);
+}
+.badgeStackcolor_red {
+  background: var(--token-DFms3aO3cJZk);
+}
+.badgeStackcolor_yellow {
+  background: var(--token-f23Qy641W2OQ);
+}
+.badgeStackcolor_green {
+  background: var(--token-x6g_G4uWNdNF);
+}
+.badgeStackcolor_blue {
+  background: var(--token-XOjYdA42Y0k7);
+}
+.badgeStackcolor_lime {
+  background: var(--token-tzseko_y4xzp);
+}
+.badgeStackcolor_teal {
+  background: var(--token-Ygo8BKLLIkF2);
+}
+.badgeStackcolor_turquiose {
+  background: var(--token-CVTP9XFbghIK);
+}
+.badgeStackcolor_aqua {
+  background: var(--token-CtIy-MHE1FiV);
+}
+.badgeStackcolor_indigo {
+  background: var(--token-jfIiZCj5Qevr);
+}
+.badgeStackcolor_pink {
+  background: var(--token-vnUq2x7bv_i-);
+}
+.badgeStackcolor_purple {
+  background: var(--token-ntO5pCYQSH7A);
+}
+.badgeStackemphasis_minimal {
+  background: none;
+  border: 1px solid var(--token-2fXLLF7yC9wG);
+}
+.badgeStackemphasis_subtle {
+  background: var(--token-KZ2gr_8OwSom);
+}
+.slotTargetAvatarInitialsSlot {
+  color: var(--token-GvwepD7koTSZ);
+  font-size: var(--token-nzhJo5rxzpC3);
+  text-align: center;
+}
+.slotTargetAvatarInitialsSlotsize_xs {
+  font-size: var(--token-6yMvrKaStYTb);
+}
+.slotTargetAvatarInitialsSlotsize_sm {
+  font-size: var(--token-WGlpT1qaWJoR);
+}
+.slotTargetAvatarInitialsSlotemphasis_minimal {
+  color: var(--token-30bn7_mVTj3v);
+}
+.slotTargetAvatarInitialsSlotemphasis_subtle {
+  color: var(--token-9fEzaTbNGUOg);
+}
+.text__ymoUn {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}

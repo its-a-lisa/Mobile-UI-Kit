@@ -1,0 +1,250 @@
+.listItemBase {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  justify-self: flex-start;
+  width: auto;
+}
+.listItemStack {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  min-height: 0;
+}
+.listItemStack > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 0;
+  margin-left: calc(0px - var(--token-KxVmJIE6k3B4));
+  width: calc(100% + var(--token-KxVmJIE6k3B4));
+}
+.listItemStack > :global(.__wab_flex-container) > *,
+.listItemStack > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.listItemStack > :global(.__wab_flex-container) > picture > img,
+.listItemStack
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: var(--token-KxVmJIE6k3B4);
+}
+.listItemStacksize_lg > :global(.__wab_flex-container) {
+  margin-left: calc(0px - var(--token-qSXoXx_-unk6));
+  width: calc(100% + var(--token-qSXoXx_-unk6));
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.listItemStacksize_lg > :global(.__wab_flex-container) > *,
+.listItemStacksize_lg
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.listItemStacksize_lg > :global(.__wab_flex-container) > picture > img,
+.listItemStacksize_lg
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: var(--token-qSXoXx_-unk6);
+  margin-top: 0px;
+}
+.listItemStackreverseItemComponents {
+  flex-direction: row-reverse;
+}
+.listItemStackreverseItemComponents > :global(.__wab_flex-container) {
+  flex-direction: row-reverse;
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.listItemStackreverseItemComponents > :global(.__wab_flex-container) > *,
+.listItemStackreverseItemComponents
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.listItemStackreverseItemComponents
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.listItemStackreverseItemComponents
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 0px;
+}
+.listItemIconStack {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  min-width: 0px;
+}
+.listItemIconStack > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - var(--token-KxVmJIE6k3B4));
+  width: calc(100% + var(--token-KxVmJIE6k3B4));
+}
+.listItemIconStack > :global(.__wab_flex-container) > *,
+.listItemIconStack > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.listItemIconStack > :global(.__wab_flex-container) > picture > img,
+.listItemIconStack
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: var(--token-KxVmJIE6k3B4);
+}
+.listItemIconStacksize_sm {
+  height: var(--token-JNsiTJUONO9E);
+  width: var(--token-h2wdS0UYVjJ1);
+  flex-shrink: 0;
+}
+.listItemIconStacksize_lg {
+  width: var(--token-4g6a_00V-FT7);
+  height: var(--token-8Dg7TxE4tFbF);
+  flex-shrink: 0;
+}
+.slotTargetChildren {
+  color: var(--token-IuV20ntkZaLU);
+}
+.slotTargetChildreniconColor_secondary {
+  color: var(--token-TBNqbCk3Qhnb);
+}
+.slotTargetChildreniconColor_standard {
+  color: var(--token-ovZBY3_eKjRp);
+}
+.slotTargetChildreniconColor_primary {
+  color: var(--token-C8h5icYh1Xei);
+}
+.slotTargetChildreniconColor_success {
+  color: var(--token-PZcjMz7R1jZK);
+}
+.slotTargetChildreniconColor_information {
+  color: var(--token-dBZI0c2YHXqD);
+}
+.slotTargetChildreniconColor_error {
+  color: var(--token-MTqIwtLSZ8Sz);
+}
+.slotTargetChildreniconColor_disabled {
+  color: var(--token-pLxA2L1F3iwC);
+}
+.slotTargetChildreniconColor_onColor {
+  color: var(--token-llmgt3zj4B68);
+}
+.svg__dLAzv {
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.listItemContentStack {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  max-width: 100%;
+  min-height: 0;
+}
+.listItemContentStack > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 0;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.listItemContentStack > :global(.__wab_flex-container) > *,
+.listItemContentStack
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.listItemContentStack > :global(.__wab_flex-container) > picture > img,
+.listItemContentStack
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.slotTargetListContentSlot {
+  color: var(--token-O53E_jb-QUZX);
+  line-height: var(--token-EQk_y8gQbUYP);
+  font-size: var(--token-kups2N1OaeRH);
+  font-family: var(--token-A25vIlshpF39);
+  white-space: pre-wrap;
+}
+.slotTargetListContentSlotcontentColor_emphasis {
+  color: var(--token-PHoGWTylrCoI);
+}
+.slotTargetListContentSlotcontentColor_standard {
+  color: var(--token-18ML8UJB4uG-);
+}
+.slotTargetListContentSlotcontentColor_primary {
+  color: var(--token-seWgtLYrUU-b);
+}
+.slotTargetListContentSlotcontentColor_secondary {
+  color: var(--token-DfvFp5qPxply);
+}
+.slotTargetListContentSlotcontentColor_success {
+  color: var(--token-PWRdsR-Q8dRb);
+}
+.slotTargetListContentSlotcontentColor_information {
+  color: var(--token-D-80lT67DWRW);
+}
+.slotTargetListContentSlotcontentColor_error {
+  color: var(--token-aH3l6vC1IyzV);
+}
+.slotTargetListContentSlotcontentColor_disabled {
+  color: var(--token-ppbhxHltzhGx);
+}
+.slotTargetListContentSlotcontentColor_helper {
+  color: var(--token-1SmRtVTDsNVw);
+}
+.slotTargetListContentSlotcontentColor_onColor {
+  color: var(--token-PG8WAxTqPz54);
+}
+.slotTargetListContentSlotfamily_secondary {
+  font-family: var(--token-mIbnOMtB8Ety);
+}
+.slotTargetListContentSlotlineHeight_compact {
+  line-height: var(--token-EQk_y8gQbUYP);
+}
+.slotTargetListContentSlotsize_sm {
+  font-size: var(--token-Mp-77KV4bKx8);
+}
+.slotTargetListContentSlotsize_lg {
+  font-size: var(--token-yXnR0mKjCtfU);
+}
+.slotTargetListContentSlotweight_light {
+  font-weight: 300;
+}
+.slotTargetListContentSlotweight_medium {
+  font-weight: 500;
+}
+.slotTargetListContentSlotalign_left {
+  text-align: left;
+}
+.slotTargetListContentSlotalign_center {
+  text-align: center;
+}
+.slotTargetListContentSlotalign_right {
+  text-align: right;
+}
+.slotTargetListContentSlotalign_justified {
+  text-align: justify;
+}
+.text__lGvVl {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
