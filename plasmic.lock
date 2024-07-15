@@ -919,10 +919,10 @@
     },
     {
       "projectId": "bEVQSMSYHutfoPgsCgDaki",
-      "version": "2.0.5",
+      "version": "2.0.6",
       "dependencies": {
-        "dNqcW7FYVqnkjtbdVGjyS8": "33.1.4",
-        "3BHMWCYAenCmWb8ThbnzeF": "9.0.2"
+        "dNqcW7FYVqnkjtbdVGjyS8": "33.2.0",
+        "3BHMWCYAenCmWb8ThbnzeF": "11.1.1"
       },
       "lang": "ts",
       "fileLocks": [
@@ -1297,7 +1297,7 @@
         "nVTL6BvP7Knk1RSNkBbJCm": "15.2.2",
         "gXd6w7L89NWPNeJmpaYS3W": "3.0.5",
         "xpyP1X2yhd8ZY24SVBFr1E": "2.1.5",
-        "bEVQSMSYHutfoPgsCgDaki": "2.0.5",
+        "bEVQSMSYHutfoPgsCgDaki": "2.0.6",
         "wjwfXMtbnYisAPU4bK5cC5": "3.1.3",
         "6PoNur73nfoJqbzNtkNpAX": "2.0.5",
         "4JFyEcvXaxQ6TZ3SJQYzp6": "9.0.4",

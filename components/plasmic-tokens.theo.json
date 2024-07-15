@@ -1403,7 +1403,7 @@
     {
       "name": "checkbox.color.box.enabled.unchecked",
       "type": "color",
-      "value": "#E5E5E5",
+      "value": "#27272A",
       "category": "color",
       "meta": {
         "projectId": "bEVQSMSYHutfoPgsCgDaki",
@@ -1413,7 +1413,7 @@
     {
       "name": "checkbox.color.box.focus.unchecked",
       "type": "color",
-      "value": "#E5E5E5",
+      "value": "#27272A",
       "category": "color",
       "meta": {
         "projectId": "bEVQSMSYHutfoPgsCgDaki",
@@ -1433,7 +1433,7 @@
     {
       "name": "checkbox.color.box.hover.unchecked",
       "type": "color",
-      "value": "#E5E5E5",
+      "value": "#27272A",
       "category": "color",
       "meta": {
         "projectId": "bEVQSMSYHutfoPgsCgDaki",
@@ -1463,7 +1463,7 @@
     {
       "name": "checkbox.color.label.enabled.text",
       "type": "color",
-      "value": "#525252",
+      "value": "#71717A",
       "category": "color",
       "meta": {
         "projectId": "bEVQSMSYHutfoPgsCgDaki",
@@ -1473,7 +1473,7 @@
     {
       "name": "checkbox.color.label.focus.text",
       "type": "color",
-      "value": "#525252",
+      "value": "#71717A",
       "category": "color",
       "meta": {
         "projectId": "bEVQSMSYHutfoPgsCgDaki",
@@ -1603,7 +1603,7 @@
     {
       "name": "checkbox.label.fontsize.md",
       "type": "fontsize",
-      "value": "16px",
+      "value": "1rem",
       "category": "fontsize",
       "meta": {
         "projectId": "bEVQSMSYHutfoPgsCgDaki",
@@ -1653,7 +1653,7 @@
     {
       "name": "checkbox.label.fontsize.sm",
       "type": "fontsize",
-      "value": "14px",
+      "value": "0.88rem",
       "category": "fontsize",
       "meta": {
         "projectId": "bEVQSMSYHutfoPgsCgDaki",
@@ -4263,7 +4263,7 @@
     {
       "name": "dropdown.placeholder.fontsize.md",
       "type": "fontsize",
-      "value": "14px",
+      "value": "0.88rem",
       "category": "fontsize",
       "meta": {
         "projectId": "bEVQSMSYHutfoPgsCgDaki",
@@ -11633,7 +11633,7 @@
     {
       "name": "switch.label.fontsize.md",
       "type": "fontsize",
-      "value": "16px",
+      "value": "1rem",
       "category": "fontsize",
       "meta": {
         "projectId": "bEVQSMSYHutfoPgsCgDaki",
@@ -11673,7 +11673,7 @@
     {
       "name": "switch.label.fontsize.sm",
       "type": "fontsize",
-      "value": "14px",
+      "value": "0.88rem",
       "category": "fontsize",
       "meta": {
         "projectId": "bEVQSMSYHutfoPgsCgDaki",
